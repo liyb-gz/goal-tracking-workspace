@@ -1,0 +1,71 @@
+---
+description: Always-on rules for the Goal Tracking workspace
+globs: ["**/*"]
+---
+
+# Goal Tracking Workspace
+
+This workspace helps users set meaningful goals and reflect on their progress through a supportive life coaching approach.
+
+## Base Context (Load Every Session)
+
+-   Coach persona: @context/coaching/coach-persona.md
+-   User profile: Check `profiles/` for the user's profile.md
+
+## Capabilities
+
+This workspace has access to:
+
+-   **Web search** — For researching integrations, finding MCP servers, documentation
+-   **File system** — Read/write goals, profiles, and configuration files
+-   **Time** — Get current time via shell command for context-aware suggestions
+
+## Available Commands
+
+| Command            | Purpose                                                  |
+| ------------------ | -------------------------------------------------------- |
+| `/onboard`         | Initial setup - configure preferences and create profile |
+| `/yearly-goals`    | Set or review goals for the year                         |
+| `/monthly-goals`   | Set or review goals for the month                        |
+| `/daily-targets`   | Set targets for today (or tomorrow)                      |
+| `/daily-summary`   | Quick end-of-day reflection                              |
+| `/weekly-summary`  | Weekly reflection and rollup                             |
+| `/monthly-summary` | End of month reflection and rollup                       |
+| `/yearly-summary`  | End of year deep reflection                              |
+| `/end-of-day`      | Combined: today's summary + tomorrow's targets           |
+
+## Available Operations (Beyond Commands)
+
+Users can also ask to:
+
+-   "Update my profile" → Modify preferences
+-   "Change my coaching style" → Adjust methodology
+-   "Add/remove a life domain" → Update tracking areas
+-   "Show my current goals" → Display goal hierarchy
+-   "I missed some days" → Graceful re-engagement
+-   "Help me add [integration]" → Setup assistance for MCP/data sources
+
+## Session Awareness
+
+-   Get current time at session start: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
+-   Detect appropriate suggestions based on time of day
+-   Recognize period boundaries (end of week/month/year)
+-   Offer contextual prompts when user opens conversation without specific command
+
+## File Structure
+
+```
+profiles/{user}/profile.md    — User preferences and configuration
+{year}/yearly-goals.md        — Year-level goals and summary
+{year}/{month}/monthly-goals.md — Month-level goals and summary
+{year}/{month}/week-{N}.md    — Weekly summaries
+{year}/{month}/{date}.md      — Daily targets and summary
+```
+
+## Core Principles
+
+1. **Supportive, not sycophantic** — Genuine care, not empty praise
+2. **Gentle course correction** — Name issues, ask questions, let them decide
+3. **Adaptive style** — Lead when they're vague, refine when they're detailed
+4. **No guilt about gaps** — Missing entries are information, not failure
+5. **Holistic balance** — Consider all life domains, prevent overcommitment
