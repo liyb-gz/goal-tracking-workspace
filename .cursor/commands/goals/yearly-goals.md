@@ -1,7 +1,6 @@
 ---
 name: yearly-goals
 description: Set or review goals for the year
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

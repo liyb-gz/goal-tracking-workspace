@@ -1,7 +1,6 @@
 ---
 name: monthly-summary
 description: End of month reflection and rollup
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

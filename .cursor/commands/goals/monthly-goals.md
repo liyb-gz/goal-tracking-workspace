@@ -1,7 +1,6 @@
 ---
 name: monthly-goals
 description: Set or review goals for the month
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

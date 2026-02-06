@@ -1,7 +1,6 @@
 ---
 name: yearly-summary
 description: End of year deep reflection
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

@@ -1,7 +1,6 @@
 ---
 name: daily-targets
 description: Set targets for today (or tomorrow)
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

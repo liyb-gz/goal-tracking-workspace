@@ -1,7 +1,6 @@
 ---
 name: onboard
 description: Initial workspace setup - configure preferences and create profile
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

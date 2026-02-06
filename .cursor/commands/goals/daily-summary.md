@@ -1,7 +1,6 @@
 ---
 name: daily-summary
 description: Quick end-of-day reflection
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

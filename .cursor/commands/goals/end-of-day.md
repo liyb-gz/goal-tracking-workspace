@@ -1,7 +1,6 @@
 ---
 name: end-of-day
 description: Combined session - today's summary + tomorrow's targets
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md

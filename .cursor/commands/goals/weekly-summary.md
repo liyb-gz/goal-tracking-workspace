@@ -1,7 +1,6 @@
 ---
 name: weekly-summary
 description: Weekly reflection and rollup
-agent: life-coach
 ---
 
 @context/coaching/coach-persona.md
