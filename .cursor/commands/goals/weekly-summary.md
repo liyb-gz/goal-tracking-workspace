@@ -16,6 +16,7 @@ You are facilitating a weekly reflection.
 4. Load all daily files for the week from `{year}/{month}/`
 5. Load monthly goals for context: `{year}/{month}/monthly-goals.md`
 6. Note which days have summaries vs. gaps
+7. Check if monthly goals were revised during this week (compare `Last updated` date)
 
 ## Session Flow
 
@@ -34,6 +35,7 @@ Review daily summaries for:
 -   "How did this week move you toward your monthly goals?"
 -   "What worked well? What would you adjust?"
 -   "Any surprises — good or challenging?"
+-   If monthly goals were revised this week: "Your monthly goals shifted this week. How did that change your focus?"
 
 ### Handle Gaps
 

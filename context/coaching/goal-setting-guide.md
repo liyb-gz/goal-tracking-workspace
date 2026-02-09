@@ -106,17 +106,34 @@ Don't enforce rigidly — adapt to user's style.
 
 ## Goal File Format
 
-Write goals with this structure:
+Goal files use an Active/Retired structure:
 
-```markdown
-## [Domain]: [Goal Statement]
+- **Active Goals** section: Current, living goals the user is working toward
+- **Retired Goals** section: Table of goals that were achieved, revised, or released — with date and context
 
-**Why:** Brief meaning/motivation
-**Milestones:** Key checkpoints (if applicable)
-**Status:** Active | Achieved | Revised | Dropped
+When goals change:
+1. Move the old goal to the Retired Goals table with status, date, and context
+2. Add the new/revised goal to Active Goals
+3. If revised, add a brief provenance note: *revised {date}, was: "{old goal}"*
+4. Update the `Last updated` date at the top of the file
 
----
-```
+### Valid Goal Statuses
+
+| Status | Meaning | Where it appears |
+|--------|---------|-----------------|
+| Active | Currently being pursued | Active Goals section (implicit) |
+| Achieved | Completed successfully | Retired Goals table |
+| Revised | Changed to something new | Retired Goals table (with → new version) |
+| Released | Intentionally let go | Retired Goals table (with reason) |
+| Dropped | Abandoned without replacement | Retired Goals table |
+| Evolved | Organically transformed (yearly only) | Retired Goals table |
+
+### Cascading Revisions
+
+When yearly goals change, downstream goals may need adjustment:
+- `/monthly-goals` checks yearly goals' `Last updated` date and flags if stale
+- `/daily-targets` shows monthly goals as context; divergence is noted gently
+- Summaries track whether goals were revised during their period
 
 ---
 

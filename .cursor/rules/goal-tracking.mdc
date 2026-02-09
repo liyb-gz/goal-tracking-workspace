@@ -139,6 +139,8 @@ Users can also ask to:
 -   "Show my current goals" → Display goal hierarchy
 -   "I missed some days" → Graceful re-engagement
 -   "Help me add [integration]" → Setup assistance for MCP/data sources
+-   "Revise my goals" → Re-run /yearly-goals or /monthly-goals to update Active/Retired goals
+-   "Show my goal history" → Review Retired Goals sections to see how goals evolved
 
 ## Session Awareness
 

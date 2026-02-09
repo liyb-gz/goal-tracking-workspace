@@ -15,6 +15,7 @@ You are facilitating an end-of-month reflection.
 3. Load monthly goals: `{year}/{month}/monthly-goals.md`
 4. Load all weekly summaries for the month: `{year}/{month}/week-*.md`
 5. Load yearly goals for context: `{year}/yearly-goals.md`
+6. Check `Last updated` dates on both monthly and yearly goals — note any mid-period revisions
 
 ## Session Flow
 
@@ -25,6 +26,8 @@ For each goal set at month start:
 -   What was the outcome?
 -   Mark status: Achieved / Partial / Revised / Not pursued
 -   Capture lessons either way — what enabled or hindered?
+-   If goals were revised mid-month, review both active and retired goals
+-   For revised goals: What prompted the change? Was the pivot the right call?
 
 ### Synthesize Weeks
 
@@ -32,10 +35,17 @@ For each goal set at month start:
 -   Energy and capacity patterns?
 -   What supported progress? What hindered?
 
+### Handle Gaps
+
+-   Note weekly summary coverage: "We have summaries for X of Y weeks this month"
+-   If weeks are missing, note factually and offer to discuss
+-   Gaps are information, not failures
+
 ### Connect to Yearly Goals
 
 -   How did this month advance yearly intentions?
 -   Any yearly goals that need adjustment or aren't getting attention?
+-   If yearly goals were revised during this month: "Your yearly goals shifted this month. How did that affect your monthly focus?"
 
 ### Look Forward
 
@@ -56,11 +66,12 @@ Completed: {date}
 
 ### Goal Outcomes
 
-| Goal | Status | Reflection |
-|------|--------|------------|
-| {Goal 1} | Achieved | {What made it work} |
-| {Goal 2} | Partial | {What happened, what's left} |
-| {Goal 3} | Not pursued | {Why, and is that okay?} |
+| Goal | Status | Date Revised | Reflection |
+|------|--------|--------------|------------|
+| {Goal 1} | Achieved | — | {What made it work} |
+| {Goal 2} | Partial | — | {What happened, what's left} |
+| {Goal 3} | Revised | {date} | {What prompted the change} |
+| {Goal 4} | Not pursued | — | {Why, and is that okay?} |
 
 ### Month Themes
 - {Major theme or pattern that emerged}

@@ -16,6 +16,7 @@ You are facilitating a yearly goal-setting session.
 3. Determine the year (current or upcoming based on context)
 4. Check if yearly goals file exists: `{year}/yearly-goals.md`
    - If exists: Load it, ask if reviewing or revising
+      - If revising: Move changed goals to Retired Goals section, add new/revised goals to Active Goals
    - If not: Fresh goal-setting session
 
 ## Session Flow
@@ -40,20 +41,17 @@ Write to: `{year}/yearly-goals.md`
 ```markdown
 # {Year} Goals
 
-Created: {date}
-Last updated: {date}
+**Theme:** {Overarching theme or intention — optional}
+**Created:** {date}
+**Last updated:** {date}
 
-## Year Theme
-{Overarching theme or intention — optional}
-
-## Goals by Domain
+## Active Goals
 
 ### {Domain 1} ⭐ Priority
 
 #### {Goal Statement}
 **Why:** {Meaning/motivation}
 **Success looks like:** {Description of achievement}
-**Status:** Active
 
 ---
 
@@ -61,9 +59,14 @@ Last updated: {date}
 
 #### {Goal Statement}
 **Why:** {Meaning}
-**Status:** Active
 
 ---
+
+## Retired Goals
+
+| Goal | Domain | Status | Date | Context |
+|------|--------|--------|------|---------|
+| *(empty until goals are revised, achieved, or released)* |
 
 ## Notes
 {Any context, tentative items, things to revisit mid-year}
@@ -79,3 +82,4 @@ Last updated: {date}
 - Summarize the goals set
 - Express genuine confidence in their capacity
 - Suggest next step: "When you're ready, /monthly-goals will help break these down"
+- Note: "If your goals change during the year, just run /yearly-goals again to revise them"

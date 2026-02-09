@@ -145,6 +145,17 @@ Higher-level summaries should:
 
 ---
 
+## Handling Goal Revisions in Summaries
+
+When goals were revised during the summary period:
+- Review both active and retired goals from the goal file
+- For each revised/released goal: What prompted the change? Was it the right call?
+- Track the full arc: original intention → revision → outcome
+- Include a `Date Revised` column in the Goal Outcomes table
+- Frame revisions positively: changing course is a sign of self-awareness, not failure
+
+---
+
 ## Handling Incomplete Data
 
 1. **State coverage honestly:** "This summary covers 4 of 7 days this week"

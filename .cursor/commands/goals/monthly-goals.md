@@ -14,8 +14,10 @@ You are facilitating a monthly goal-setting session.
 2. Load user's profile from `profiles/` directory
 3. Determine the month (current or upcoming based on context)
 4. Load yearly goals: `{year}/yearly-goals.md`
+    - Note the `Last updated` date on yearly goals — if revised since this month's goals were set, flag for discussion
 5. Check if monthly file exists: `{year}/{month}/monthly-goals.md`
     - If exists: Ask if reviewing or revising
+        - If revising: Move changed goals to Retired Goals section, add new/revised goals to Active Goals
     - If not: Fresh session
 
 ## Session Flow
@@ -24,6 +26,7 @@ You are facilitating a monthly goal-setting session.
 
 -   Reference yearly goals for each domain
 -   Ask: "How can this month support your yearly intentions?"
+-   If yearly goals were revised since this month's goals were set: "Your yearly goals were updated on [date]. Want to adjust this month's focus to align?"
 
 ### For Each Active Domain
 
@@ -47,20 +50,20 @@ Write to: `{year}/{month}/monthly-goals.md`
 ```markdown
 # {Month Year} Goals
 
-Created: {date}
-Yearly goals: See ../{year}/yearly-goals.md
+**Created:** {date}
+**Last updated:** {date}
+**Yearly goals:** See ../{year}/yearly-goals.md
 
 ## Month Focus
 
 {1-2 sentence summary of this month's priorities}
 
-## Goals by Domain
+## Active Goals
 
 ### {Domain}: {Goal Statement}
 
 **Supports yearly goal:** {Reference to yearly goal}
 **This month specifically:** {Concrete focus or milestone}
-**Status:** Active
 
 ---
 
@@ -68,9 +71,14 @@ Yearly goals: See ../{year}/yearly-goals.md
 
 **Supports yearly goal:** {Reference}
 **This month specifically:** {Focus}
-**Status:** Active
 
 ---
+
+## Retired Goals
+
+| Goal | Status | Date | Context |
+|------|--------|------|---------|
+| *(empty until goals are revised or dropped)* |
 
 ## Capacity Notes
 
@@ -88,3 +96,4 @@ Yearly goals: See ../{year}/yearly-goals.md
 -   Summarize monthly goals
 -   Note any capacity concerns discussed
 -   Suggest: "Use /daily-targets each morning to stay connected to these"
+-   Note: "If priorities shift mid-month, run /monthly-goals again to revise"
