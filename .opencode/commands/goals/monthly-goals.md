@@ -35,8 +35,12 @@ You are facilitating a monthly goal-setting session.
 - Any known events (travel, busy periods) to account for?
 
 ### Capacity Check
+- Ask about available time naturally: "When do you typically have free time for personal goals? Mornings, evenings, weekends?"
+- Translate to rough weekly hours (don't force precision): "So it sounds like maybe 5-8 hours a week?"
 - Review what they're committing to
-- Gently challenge if overloaded
+- Use coach-first time estimation: Propose estimates for each goal, let user confirm/adjust
+- Compare total estimated time vs available capacity
+- Gently challenge if overloaded: "That's about 12 hours of goals for 8 hours of time — what should we adjust?"
 - Suggest prioritization or sequencing
 
 ## Output
@@ -76,7 +80,11 @@ Write to: `{year}/{month}/monthly-goals.md`
 | *(empty until goals are revised or dropped)* |
 
 ## Capacity Notes
-{Observations about bandwidth, competing priorities, known busy periods}
+**Available time:** {X} hours/week (e.g., "evenings + Saturday mornings")
+**Known constraints:** {travel, deadlines, busy periods}
+**Estimated goal time:** ~{Y} hours/week total
+
+{Observations about fit — is Y ≤ X? Any concerns? Adjustments made?}
 
 ---
 

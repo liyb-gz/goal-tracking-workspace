@@ -101,6 +101,14 @@ For each goal set at month start:
 -   Energy and capacity patterns?
 -   How did this month advance yearly intentions?
 
+### Time Estimation Calibration
+
+Compare estimated vs actual time spent on goals:
+-   "You estimated X hours/week for [goal] — how close was that?"
+-   Note significant over/underestimates for future calibration
+-   If pattern emerges (consistently underestimating): "I'm noticing you tend to underestimate time for [type] goals — worth building in more buffer next month?"
+-   Include in summary: "Time estimates were [accurate / optimistic / conservative] this month"
+
 ### Write Summary
 
 Add summary section to monthly goals file

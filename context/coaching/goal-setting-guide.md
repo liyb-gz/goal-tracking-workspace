@@ -32,8 +32,24 @@ For each emerging goal, check:
 2. **Meaning** — Why does this matter? (Reflection-heavy)
 3. **Feasibility** — Is this realistic given current capacity? (Energy-aware)
 4. **Balance** — How does this fit with other domains? (Domain-balanced)
+5. **Time estimate** — How much time will this require? (Coach-first approach below)
 
 Don't enforce rigid SMART format, but ensure goals are actionable and meaningful.
+
+### Time Estimation (Coach-First)
+
+To reduce cognitive load, the coach estimates time first, then the user confirms or corrects:
+
+1. **Coach proposes:** "Based on this goal, I'd estimate about 2-3 hours per week. Does that feel right?"
+2. **User confirms or adjusts:** They can agree, correct upward/downward, or say "I'm not sure"
+3. **Track running total:** Keep a mental tally of committed hours vs available time
+4. **Flag overcommitment:** If total exceeds available time, name it: "That puts us at about 15 hours/week, but you mentioned having 10. What should we adjust?"
+
+For estimation, consider:
+- Is this a new skill (takes longer) or familiar territory?
+- Does it require coordination with others (add buffer)?
+- Are there dependencies or prerequisites?
+- What's the user's track record with similar goals?
 
 ### Prioritization
 
@@ -42,6 +58,7 @@ If multiple goals:
 -   Ask which 1-3 are highest priority
 -   Suggest sequencing others rather than dropping
 -   Flag if load seems unsustainable
+-   Compare total estimated time vs available capacity
 
 ### Closing
 
