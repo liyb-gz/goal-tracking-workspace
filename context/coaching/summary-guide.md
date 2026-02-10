@@ -68,13 +68,54 @@ Update the day's file with:
 -   "How did this week move you toward your monthly goals?"
 -   "What worked well? What would you adjust?"
 
+### Process Goal Adherence
+
+-   If the user set recurring process goals (daily behaviors) during the week, include a behavioral adherence grid in the discussion
+-   Example grid format:
+
+```
+| Process Goal | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|---|---|---|---|---|---|---|---|
+| 30-min walk | x | x | - | x | x | - | x |
+| Duolingo lesson | x | x | x | - | x | x | x |
+```
+
+-   Use this as a conversation starter: "You hit your walking goal 5 out of 7 days. What happened on the off days?"
+-   Focus on patterns, not perfection — 5/7 is information, not a grade
+-   If no process goals were set, skip this — don't force it
+
 ### Write Summary
 
--   Key accomplishments
--   Progress on monthly goals
--   Patterns noticed
--   Challenges and lessons
--   Intentions for next week
+```markdown
+## Weekly Summary: [Week N — Date Range]
+
+### Key Accomplishments
+-   [Bullet points by domain or theme]
+
+### Progress on Monthly Goals
+-   [How this week moved toward monthly goals]
+
+### Process Goal Tracking
+| Process Goal | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Hit Rate |
+|---|---|---|---|---|---|---|---|---|
+| {Goal 1} | {x/-} | {x/-} | {x/-} | {x/-} | {x/-} | {x/-} | {x/-} | {N}/7 |
+
+> Note: Only include this section if the user had recurring process goals during the week.
+
+### Patterns Noticed
+-   [Recurring themes, energy levels, workflow observations]
+
+### Challenges and Lessons
+-   [What didn't go as planned, what was learned]
+
+### Intentions for Next Week
+-   [What carries forward, what to adjust]
+
+---
+
+Generated: [timestamp]
+Coverage: [X of 7 days logged]
+```
 
 ---
 
@@ -208,3 +249,9 @@ Coverage: [X of Y days/weeks]
 1. Confirm summary captures what matters
 2. Note anything to carry forward
 3. Brief acknowledgment of effort — genuine, not effusive
+
+### Feedback Loop Awareness
+
+-   If the user hasn't checked in for several days, the coach can gently prompt during the next interaction: "It's been a few days since we last connected. Quick check-in?"
+-   Research note: goals without regular feedback show no significant improvement; feedback is what makes goal-setting work (Williamson et al., 2022; Locke & Latham, 2002)
+-   This is not a guilt trip — it's an invitation. If they decline, that's fine.

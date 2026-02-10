@@ -27,6 +27,7 @@ Review daily summaries for:
 - Recurring challenges
 - Energy patterns (high/low days)
 - Progress on monthly goals
+- Process goal adherence (if recurring daily behaviors were set)
 
 ### Discussion Prompts
 - "Here's what I noticed this week: [patterns]. What stands out to you?"
@@ -34,6 +35,7 @@ Review daily summaries for:
 - "What worked well? What would you adjust?"
 - "Any surprises — good or challenging?"
 - If monthly goals were revised this week: "Your monthly goals shifted this week. How did that change your focus?"
+- If process goals were tracked: "You hit [goal] X out of 7 days. What patterns do you notice?"
 
 ### Handle Gaps
 - State coverage: "We have summaries for X of 7 days"
@@ -59,6 +61,13 @@ Coverage: {X}/7 days logged
 ### Progress on Monthly Goals
 - **{Goal 1}:** {Progress note}
 - **{Goal 2}:** {Progress note}
+
+### Process Goal Tracking
+| Process Goal | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Hit Rate |
+|---|---|---|---|---|---|---|---|---|
+| {Goal 1} | {x/-} | {x/-} | {x/-} | {x/-} | {x/-} | {x/-} | {x/-} | {N}/7 |
+
+*(Include only if recurring process goals were set this week)*
 
 ### Patterns Noticed
 - {Energy pattern, productivity pattern, habit observation}

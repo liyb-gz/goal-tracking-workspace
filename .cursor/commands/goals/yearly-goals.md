@@ -34,6 +34,9 @@ Follow goal-setting-guide.md with these specifics:
 -   1-3 major objectives per priority domain
 -   A yearly theme or north star is helpful but optional
 -   Specific enough to guide monthly goal-setting
+-   Framed as approach goals where possible ("Build X" rather than "Stop Y" or "Avoid Z")
+-   If avoidance-framed, help reframe: "Stop wasting money" → "Build a savings habit I feel good about"
+-   For each goal, briefly explore the motivation: "What draws you to this?" (curiosity, not interrogation)
 
 ## Output
 
@@ -53,6 +56,7 @@ Write to: `{year}/yearly-goals.md`
 #### {Goal Statement}
 **Why:** {Meaning/motivation}
 **Success looks like:** {Description of achievement}
+**Process anchor:** {A recurring behavior that supports this goal}
 
 ---
 

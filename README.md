@@ -6,24 +6,26 @@ An agentic workspace for goal setting and reflection, powered by a supportive AI
 
 This workspace provides a structured system for:
 
--   **Goal setting** at yearly, monthly, and daily levels
--   **Reflection summaries** that roll up from daily → weekly → monthly → yearly
--   **Adaptive coaching** that meets you where you are
+- **Goal setting** at yearly, monthly, and daily levels
+- **Reflection summaries** that roll up from daily → weekly → monthly → yearly
+- **Adaptive coaching** that meets you where you are
 
 The AI coach acts as a professional life coach — supportive but not sycophantic, gently corrective when needed, and focused on sustainable, meaningful goals.
 
 ## Supported Platforms
 
--   **Cursor** — Full support with commands, agents, and rules
--   **OpenCode** — Full support with commands and agents
+- **Cursor** — Full support with commands, agents, and rules
+- **OpenCode** — Full support with commands and agents
+- **Other Platforms** - Ask you AI agent to adapt it to your platform!
 
 ## Getting Started
 
 ### 1. Clone or copy this workspace
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/goal-tracking-workspace.git
+git clone https://github.com/liyb-gz/goal-tracking-workspace.git
 cd goal-tracking-workspace
+opencode # or cursor .
 ```
 
 ### 2. Run onboarding
@@ -36,9 +38,9 @@ Open the workspace in Cursor or OpenCode and run:
 
 This will:
 
--   Ask for your preferences (language, timezone, life domains)
--   Set up your coaching style
--   Create your profile
+- Ask for your preferences (language, timezone, life domains)
+- Set up your coaching style
+- Create your profile
 
 ### 3. Start tracking
 
@@ -68,32 +70,50 @@ This will:
 
 ## Coaching Methodology
 
-The default coaching style combines:
+The coaching approach is grounded in goal-setting research and combines:
 
-| Approach             | Purpose                                          |
-| -------------------- | ------------------------------------------------ |
-| **Domain-balanced**  | Ensures all life areas get attention             |
-| **Energy-aware**     | Prevents overcommitment                          |
-| **Reflection-heavy** | Connects goals to meaning                        |
-| **SMART-lite**       | Specificity where helpful, flexibility where not |
+| Approach                 | Purpose                                                          |
+| ------------------------ | ---------------------------------------------------------------- |
+| **Process-goal focused** | Steers toward controllable daily behaviors, not just outcomes    |
+| **Domain-balanced**      | Ensures all life areas get attention                             |
+| **Energy-aware**         | Prevents overcommitment                                          |
+| **Motivation-aware**     | Explores _why_ you pursue goals, not just _what_                 |
+| **Reflection-heavy**     | Connects goals to meaning; feedback loops make goal-setting work |
+| **Flexibility-first**    | Revising goals is self-awareness, not failure                    |
+| **SMART-lite**           | Specificity where helpful, flexibility where not                 |
 
-You can customize this during onboarding.
+### Research Foundation
+
+The methodology draws on findings from four key studies:
+
+- **Process goals dramatically outperform outcome goals** for both performance and self-efficacy (Williamson et al., 2022)
+- **Goals without feedback don't work** — check-ins and summaries are what make goal-setting effective (Locke & Latham, 2002)
+- **Learning goals outperform performance goals** on new/complex tasks where skills are still developing (Locke & Latham, 2002)
+- **Approach motivation** (pleasure, growth) predicts better well-being and persistence than avoidance motivation (fear, obligation) (Ehrlich, 2023; Dickson et al., 2021)
+- **Goal flexibility predicts well-being**; rigid tenacity does not (Dickson et al., 2021)
+- **Short-term goals + long-term direction** outperform either alone (Williamson et al., 2022)
+
+The coach carries these principles internally and surfaces them naturally when relevant — never as a lecture.
+
+Full research notes: `context/coaching/research-notes.md`
+
+You can customize coaching style during onboarding.
 
 ## Life Domains
 
 Choose which areas to track:
 
--   Health & Energy
--   Career & Work
--   Skills & Learning
--   Finances
--   Relationships
--   Fun & Recreation
--   Environment
--   Contribution
--   Spirituality / Mindfulness
--   Creative Expression
--   (Custom domains welcome)
+- Health & Energy
+- Career & Work
+- Skills & Learning
+- Finances
+- Relationships
+- Fun & Recreation
+- Environment
+- Contribution
+- Spirituality / Mindfulness
+- Creative Expression
+- (Custom domains welcome)
 
 ## File Structure
 
@@ -108,8 +128,12 @@ goal-tracking-workspace/
 │   ├── agents/
 │   └── commands/goals/
 ├── context/                    # Shared context files
-│   ├── core/                   # Option menus
+│   ├── core/                   # Option menus (domains, coaching styles)
 │   └── coaching/               # Behavior guides
+│       ├── coach-persona.md    # Voice, tone, principles
+│       ├── goal-setting-guide.md  # Goal session flow + research-backed techniques
+│       ├── summary-guide.md    # Reflection sessions + weekly tracker
+│       └── research-notes.md   # Research synthesis (4 articles)
 ├── profiles/                   # User profiles (created during onboarding)
 ├── 2026/                       # Goal & summary files (created as you use it)
 │   ├── yearly-goals.md
@@ -134,12 +158,12 @@ The coach can help you set up MCP integrations for automatic data gathering:
 
 Supported (future) integrations:
 
--   Browser history
--   Calendar events
--   App usage (ActivityWatch)
--   Git commits
--   Fitness data
--   And more
+- Browser history
+- Calendar events
+- App usage (ActivityWatch)
+- Git commits
+- Fitness data
+- And more
 
 ### Modifying Coaching Style
 
@@ -158,20 +182,23 @@ During onboarding, you can set your preferred language. All sessions, prompts, a
 
 This workspace is built on these principles:
 
-1. **Supportive, not sycophantic** — Genuine encouragement, not empty praise
-2. **Gentle course correction** — Issues are named kindly, not ignored
-3. **Gaps are okay** — Missing days aren't failures, they're information
-4. **Holistic balance** — All life domains matter, not just productivity
-5. **Adaptive depth** — Quick sessions when you're tired, deeper when you have energy
+1. **Process over outcome** — Focus on controllable daily behaviors, not results you can't control
+2. **Supportive, not sycophantic** — Genuine encouragement, not empty praise
+3. **Gentle course correction** — Issues are named kindly, not ignored
+4. **Gaps are okay** — Missing days aren't failures, they're information
+5. **Revision is healthy** — Changing goals is self-awareness, not giving up
+6. **Holistic balance** — All life domains matter, not just productivity
+7. **Feedback makes it work** — Check-ins and summaries aren't busywork, they're the mechanism
+8. **Adaptive depth** — Quick sessions when you're tired, deeper when you have energy
 
 ## Contributing
 
 Contributions welcome! Ideas for improvement:
 
--   New coaching methodologies
--   Additional life domains
--   MCP server integrations
--   Translations of context files
+- New coaching methodologies
+- Additional life domains
+- MCP server integrations
+- Translations of context files
 
 ## License
 
