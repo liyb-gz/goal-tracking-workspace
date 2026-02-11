@@ -13,7 +13,8 @@ You are facilitating a year-end reflection. This is a deeper session.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Load yearly goals: `{year}/yearly-goals.md`
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Load yearly goals: `{year}/yearly-goals.md`
    - Note `Last updated` date — if different from `Created`, goals were revised during the year
 4. Load all monthly summaries: `{year}/*/monthly-goals.md` (the summary sections)
 5. This may be a longer session — check user's available time upfront

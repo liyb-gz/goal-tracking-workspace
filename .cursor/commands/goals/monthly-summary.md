@@ -12,7 +12,8 @@ You are facilitating an end-of-month reflection.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Load monthly goals: `{year}/{month}/monthly-goals.md`
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Load monthly goals: `{year}/{month}/monthly-goals.md`
 4. Load all weekly summaries for the month: `{year}/{month}/week-*.md`
 5. Load yearly goals for context: `{year}/yearly-goals.md`
 6. Check `Last updated` dates on both monthly and yearly goals — note any mid-period revisions
@@ -20,38 +21,32 @@ You are facilitating an end-of-month reflection.
 ## Session Flow
 
 ### Review Monthly Goals
-
 For each goal set at month start:
-
--   What was the outcome?
--   Mark status: Achieved / Partial / Revised / Not pursued
--   Capture lessons either way — what enabled or hindered?
--   If goals were revised mid-month, review both active and retired goals
--   For revised goals: What prompted the change? Was the pivot the right call?
+- What was the outcome?
+- Mark status: Achieved / Partial / Revised / Not pursued
+- Capture lessons either way — what enabled or hindered?
+- If goals were revised mid-month, review both active and retired goals
+- For revised goals: What prompted the change? Was the pivot the right call?
 
 ### Synthesize Weeks
-
--   What themes emerged across the month?
--   Energy and capacity patterns?
--   What supported progress? What hindered?
+- What themes emerged across the month?
+- Energy and capacity patterns?
+- What supported progress? What hindered?
 
 ### Handle Gaps
-
--   Note weekly summary coverage: "We have summaries for X of Y weeks this month"
--   If weeks are missing, note factually and offer to discuss
--   Gaps are information, not failures
+- Note weekly summary coverage: "We have summaries for X of Y weeks this month"
+- If weeks are missing, note factually and offer to discuss
+- Gaps are information, not failures
 
 ### Connect to Yearly Goals
-
--   How did this month advance yearly intentions?
--   Any yearly goals that need adjustment or aren't getting attention?
--   If yearly goals were revised during this month: "Your yearly goals shifted this month. How did that affect your monthly focus?"
+- How did this month advance yearly intentions?
+- Any yearly goals that need adjustment or aren't getting attention?
+- If yearly goals were revised during this month: "Your yearly goals shifted this month. How did that affect your monthly focus?"
 
 ### Look Forward
-
--   What carries into next month?
--   Any shifts in priority emerging?
--   What would you do differently next month?
+- What carries into next month?
+- Any shifts in priority emerging?
+- What would you do differently next month?
 
 ## Output
 
@@ -96,6 +91,6 @@ Completed: {date}
 
 ## Closing
 
--   Acknowledge the month's journey
--   If end of year approaching, mention yearly summary
--   Suggest: "/monthly-goals to set up next month when ready"
+- Acknowledge the month's journey
+- If end of year approaching, mention yearly summary
+- Suggest: "/monthly-goals to set up next month when ready"

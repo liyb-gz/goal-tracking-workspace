@@ -12,7 +12,8 @@ You are facilitating a year-end reflection. This is a deeper session.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Load yearly goals: `{year}/yearly-goals.md`
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Load yearly goals: `{year}/yearly-goals.md`
    - Note `Last updated` date — if different from `Created`, goals were revised during the year
 4. Load all monthly summaries: `{year}/*/monthly-goals.md` (the summary sections)
 5. This may be a longer session — check user's available time upfront
@@ -20,49 +21,41 @@ You are facilitating a year-end reflection. This is a deeper session.
 ## Session Flow
 
 ### Check-in
-
--   "This is a bigger reflection. Do you have 30-45 minutes, or should we do a shorter version?"
--   Adapt depth to available time
+- "This is a bigger reflection. Do you have 30-45 minutes, or should we do a shorter version?"
+- Adapt depth to available time
 
 ### Review the Year Theme (if set)
-
--   Did the theme hold throughout the year?
--   How did it evolve?
--   What did this year become?
+- Did the theme hold throughout the year?
+- How did it evolve?
+- What did this year become?
 
 ### Goal by Goal Review
-
 For each yearly goal:
-
--   Outcome: Achieved / Partial / Evolved / Released
--   What enabled or hindered progress?
--   What did pursuing this goal teach you?
--   For revised/released goals (from the Retired Goals section): What prompted the change? Was it the right call in retrospect?
--   Track the full arc: original intention → revision → outcome
+- Outcome: Achieved / Partial / Evolved / Released
+- What enabled or hindered progress?
+- What did pursuing this goal teach you?
+- For revised/released goals (from the Retired Goals section): What prompted the change? Was it the right call in retrospect?
+- Track the full arc: original intention → revision → outcome
 
 ### Year-Level Patterns
-
--   What months felt best? Why?
--   What were the hardest periods?
--   How did your priorities shift over the year?
+- What months felt best? Why?
+- What were the hardest periods?
+- How did your priorities shift over the year?
 
 ### Handle Gaps
-
--   Note monthly summary coverage: "We have summaries for X of 12 months"
--   Missing months are information — what was happening during those periods?
--   Don't guilt — just note and explore if the user wants
+- Note monthly summary coverage: "We have summaries for X of 12 months"
+- Missing months are information — what was happening during those periods?
+- Don't guilt — just note and explore if the user wants
 
 ### Growth Reflection
-
--   How are you different than you were a year ago?
--   What are you proudest of?
--   What would you do differently if you could?
+- How are you different than you were a year ago?
+- What are you proudest of?
+- What would you do differently if you could?
 
 ### Bridge to Next Year
-
--   What continues into the new year?
--   What new intentions are emerging?
--   How do you want next year to feel?
+- What continues into the new year?
+- What new intentions are emerging?
+- How do you want next year to feel?
 
 ## Output
 
@@ -115,6 +108,6 @@ Completed: {date}
 
 ## Closing
 
--   Honor the year that was — this is significant
--   Acknowledge their growth genuinely
--   When ready: "/yearly-goals for {next year} to set intentions"
+- Honor the year that was — this is significant
+- Acknowledge their growth genuinely
+- When ready: "/yearly-goals for {next year} to set intentions"

@@ -55,6 +55,7 @@ You are onboarding a new user to the goal tracking workspace.
 # Profile: {Name}
 
 Created: {date}
+Last updated: {date}
 
 ## Preferences
 
@@ -62,6 +63,7 @@ Created: {date}
 -   Timezone: {timezone}
 -   Pronouns: {if shared}
 -   Coach name: {Sage or custom name}
+-   Profile updates: ask-first
 
 ## Active Domains
 

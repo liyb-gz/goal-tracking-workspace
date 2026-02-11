@@ -13,7 +13,8 @@ You are facilitating an end-of-month reflection.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Load monthly goals: `{year}/{month}/monthly-goals.md`
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Load monthly goals: `{year}/{month}/monthly-goals.md`
 4. Load all weekly summaries for the month: `{year}/{month}/week-*.md`
 5. Load yearly goals for context: `{year}/yearly-goals.md`
 6. Check `Last updated` dates on both monthly and yearly goals — note any mid-period revisions

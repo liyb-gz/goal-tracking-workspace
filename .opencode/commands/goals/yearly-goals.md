@@ -13,7 +13,8 @@ You are facilitating a yearly goal-setting session.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Determine the year (current or upcoming based on context)
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Determine the year (current or upcoming based on context)
 4. Check if yearly goals file exists: `{year}/yearly-goals.md`
    - If exists: Load it, ask if reviewing or revising
       - If revising: Move changed goals to Retired Goals section, add new/revised goals to Active Goals

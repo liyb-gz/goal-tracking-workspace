@@ -13,9 +13,11 @@ You are facilitating a brief daily reflection.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Load today's file: `{year}/{month}/{YYYY-MM-DD}.md`
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Load today's file: `{year}/{month}/{YYYY-MM-DD}.md`
 4. Check for targets that were set this morning
-5. Query active data sources if configured in profile
+5. Check for mid-day completions — targets already marked `[x]` with `(done ...)` timestamps
+6. Query active data sources if configured in profile
 
 ## Session Flow
 
@@ -24,7 +26,8 @@ Keep it to 5-10 minutes.
 ### Quick Prompts (3-5 questions)
 
 **If targets exist:**
-- "Looking at your targets, what got done?"
+- Acknowledge any already-completed targets (marked mid-day) — don't re-ask about those
+- "Looking at your targets, what got done?" (focus on items not yet marked)
 - "Anything that didn't happen? What got in the way?"
 
 **If data sources available:**
@@ -49,7 +52,8 @@ Update: `{year}/{month}/{YYYY-MM-DD}.md`
 
 ## Today's Targets
 
-- [x] {Completed target} `{Domain}`
+- [x] {Completed target} `{Domain}` (done {H:MM PM})
+- [x] {Ad-hoc task} `{Domain}` (done {H:MM PM}) *ad-hoc*
 - [ ] {Incomplete target} `{Domain}` — {brief note why}
 
 ## Notes

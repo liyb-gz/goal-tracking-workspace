@@ -13,7 +13,8 @@ You are facilitating a weekly reflection.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Determine week dates (typically Monday-Sunday, or ask preference)
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Determine week dates (typically Monday-Sunday, or ask preference)
 4. Load all daily files for the week from `{year}/{month}/`
 5. Load monthly goals for context: `{year}/{month}/monthly-goals.md`
 6. Note which days have summaries vs. gaps

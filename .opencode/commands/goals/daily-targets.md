@@ -13,7 +13,8 @@ You are helping set daily targets.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Determine target date:
+3. **Profile enrichment:** If the user shares new personal context during this session (life circumstances, constraints, preferences), follow the Profile Enrichment protocol in the agent definition
+4. Determine target date:
    - Morning/midday: Today
    - Evening: Offer choice — "Are we planning for today still, or looking at tomorrow?"
 4. Load monthly goals: `{year}/{month}/monthly-goals.md`
@@ -65,6 +66,11 @@ Write to: `{year}/{month}/{YYYY-MM-DD}.md`
 - [ ] {Target 1} `{Domain}`
 - [ ] {Target 2} `{Domain}`
 - [ ] {Target 3} `{Domain}`
+
+<!-- Mid-day completion format:
+- [x] {Target} `{Domain}` (done {H:MM PM})
+- [x] {Ad-hoc task} `{Domain}` (done {H:MM PM}) *ad-hoc*
+-->
 
 ## Notes
 {Energy level, constraints, intentions, or context for the day}

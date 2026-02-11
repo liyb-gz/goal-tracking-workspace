@@ -13,7 +13,8 @@ You are facilitating a monthly goal-setting session.
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Determine the month (current or upcoming based on context)
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Determine the month (current or upcoming based on context)
 4. Load yearly goals: `{year}/yearly-goals.md`
    - Note the `Last updated` date on yearly goals — if revised since this month's goals were set, flag for discussion
 5. Check if monthly file exists: `{year}/{month}/monthly-goals.md`

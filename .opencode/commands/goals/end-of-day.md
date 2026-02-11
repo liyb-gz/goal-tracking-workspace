@@ -14,7 +14,8 @@ You are running a combined end-of-day session: reflect on today, then plan tomor
 
 1. Get current time: `date "+%A, %B %d, %Y at %I:%M %p %Z"`
 2. Load user's profile from `profiles/` directory
-3. Load today's file: `{year}/{month}/{YYYY-MM-DD}.md`
+3. **Profile enrichment:** If the user shares new personal context during this session, follow the Profile Enrichment protocol in the agent definition
+4. Load today's file: `{year}/{month}/{YYYY-MM-DD}.md`
 4. Load monthly goals: `{year}/{month}/monthly-goals.md`
 
 ## Flow
@@ -22,7 +23,8 @@ You are running a combined end-of-day session: reflect on today, then plan tomor
 ### Part 1: Today's Summary (5-7 min)
 
 Follow the daily-summary approach, but keep it efficient:
-- What got done?
+- Check for mid-day completions — targets already marked `[x]` with timestamps. Acknowledge those, don't re-ask.
+- What else got done?
 - Any wins?
 - Anything that didn't happen?
 - Quick insight or observation?
